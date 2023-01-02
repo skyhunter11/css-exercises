@@ -20,16 +20,22 @@ body {
   padding: 8px;
 }
 
-.left-stuff {
+/*consolidate classes because traits are identical */
+.left-stuff, .right-stuff {
   display: flex;
+  gap: 16px;
+  align-items: center; /*Centers and squashes the "1 new notification" button*/
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
 
-.right-stuff {
-  display: flex;
-  gap: 16px;
-}
 
+/*
 div ul {
   display: flex;
   gap: 16px;
@@ -38,6 +44,7 @@ div ul {
 div li {
   flex: auto ;
 }
+*/
 
 .profile-image {
   background: rebeccapurple;
