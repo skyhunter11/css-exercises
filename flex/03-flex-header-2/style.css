@@ -14,37 +14,27 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  /*margin: 8px;*/
   padding: 8px;
 }
 
-/*consolidate classes because traits are identical */
 .left-stuff, .right-stuff {
   display: flex;
   gap: 16px;
-  align-items: center; /*Centers and squashes the "1 new notification" button*/
+  align-items: center;
+}
+
+.center-stuff {
+  display: flex;
+  align-items: center;
 }
 
 ul {
   display: flex;
-  margin: 0;
+  gap: 16px;
   padding: 0;
-  gap: 16px;
+  margin: 0;
 }
-
-
-/*
-div ul {
-  display: flex;
-  gap: 16px;
-}
-
-div li {
-  flex: auto ;
-}
-*/
 
 .profile-image {
   background: rebeccapurple;
