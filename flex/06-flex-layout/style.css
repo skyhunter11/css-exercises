@@ -20,6 +20,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 10px;
 }
 
 input {
@@ -34,11 +36,17 @@ input {
   border: solid blue;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 
 .content {
   border: solid black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
@@ -46,37 +54,35 @@ input {
   display: flex;
   margin-top: auto;
   justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 20px;
 }
-
 
 .left-links {
   display: flex;
-  justify-content: center;
 }
 
 .right-links {
   display: flex;
-  align-items: center;
 }
 
-a:link {
+/* unvisited link */
+a {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  display: text;
+}
+
+li {
+  margin: 0 8px;
+}
+
+.input {
+  margin: 10px
 }
